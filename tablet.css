@@ -1,0 +1,70 @@
+@media (min-width: 720px) {
+    header {
+        display: flex;
+        position: fixed;
+        width: 100%;
+    
+        background-color: white;
+    }
+    header .container {
+    display: flex;
+    justify-content: space-between;
+
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    padding-bottom: 0;
+    margin-top: 15px;
+} 
+
+.hero h1 {
+    font-size: 6.5rem;
+    text-align: center;
+
+}
+
+.container-seccion2 .container{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+
+.container-seccion2  .img-container{
+    display: flex;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmGE33SksjvW0k0jX0U_O9H59CexsnAaZfCQ&usqp=CAU');
+   
+    background-position: center center;
+    background-size: cover;
+    height: 250px;
+    width: 50%;
+    border-radius: 10px;
+}
+.texto {
+    display: flex;
+    justify-content: flex-start;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: center;
+}
+
+.cartas-programas {
+    display: flex;
+    flex-direction: row;
+}
+
+.cartas-programas .container {
+    display: flex;
+}
+
+.cartas-programas-title {
+    display: flex;
+    
+}
+
+
+
+
+}
